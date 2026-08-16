@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshitha Puchalapalli — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #221f3d;
+      background: #f4f3fb;
+      padding: 40px 20px;
+      line-height: 1.55;
+    }
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      padding: 48px 52px;
+      box-shadow: 0 24px 60px rgba(80, 70, 200, 0.15);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      border-bottom: 3px solid #6d5dfc;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+    .head-left { flex: 1; }
+    .head-photo img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #6d5dfc;
+    }
+    @media print {
+      .head-photo img { width: 90px; height: 90px; }
+    }
+    h1 { font-size: 1.9rem; letter-spacing: -0.5px; }
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #6d5dfc;
+      margin: 26px 0 12px;
+    }
+    .contact { margin-top: 8px; font-size: 0.88rem; color: #5f5c7e; }
+    .contact span { display: inline-block; margin-right: 14px; }
+    a { color: #6d5dfc; text-decoration: none; }
+    p { font-size: 0.93rem; color: #3d3a5c; }
+    .item { margin-bottom: 16px; }
+    .item-head { display: flex; justify-content: space-between; gap: 10px; font-weight: 600; font-size: 0.95rem; }
+    .item-head .meta { color: #6d5dfc; font-weight: 500; font-size: 0.85rem; white-space: nowrap; }
+    .item-head .role { font-size: 0.85rem; color: #5f5c7e; font-weight: 500; }
+    ul { padding-left: 18px; margin-top: 6px; }
+    li { font-size: 0.9rem; color: #3d3a5c; margin-bottom: 4px; }
+    .cert { display: flex; gap: 10px; font-size: 0.92rem; margin-bottom: 6px; }
+    .cert b { color: #6d5dfc; }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 24px; max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="head-left">
+        <h1>Harshitha Puchalapalli</h1>
+        <div class="contact">
+          <span>+91 8309982881</span>
+          <span>harshithapuchalapali@gmail.com</span><br />
+          <span><a href="https://linkedin.com/in/harshitha-puchalapalli/">linkedin.com/in/harshitha-puchalapalli</a></span>
+          <span><a href="https://github.com/harshithapuchalapali">github.com/harshithapuchalapali</a></span>
+        </div>
+      </div>
+      <div class="head-photo">
+        <img src="images/profile.jpg" alt="Harshitha Puchalapalli" />
+      </div>
+    </header>
+
+    <h2>Professional Summary</h2>
+    <p>
+      Passionate Software Developer skilled in Python, JavaScript, SQL, Flask, and Supabase with hands-on
+      experience building full-stack applications. Experienced in AI, Machine Learning, Computer Vision, and
+      database management. Strong problem-solving abilities with a focus on scalable software development
+      and modern web technologies.
+    </p>
+
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-head">
+        <span>Sri Venkateswara College of Engineering</span>
+        <span class="meta">2022 – 2026</span>
+      </div>
+      <div class="role">B.Tech in Electronics and Communication Engineering</div>
+      <p><b>CGPA: 9.3/10</b></p>
+    </div>
+    <div class="item">
+      <div class="item-head">
+        <span>Narayana Junior College</span>
+        <span class="meta">2020 – 2022</span>
+      </div>
+      <div class="role">Class XI &amp; XII</div>
+      <p><b>CGPA: 9.33/10</b></p>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="item">
+      <div class="item-head"><span>Tirumula Dairy Management System</span></div>
+      <div class="role">Supabase, HTML, CSS, JavaScript</div>
+      <ul>
+        <li>Developed a full-stack dairy management web application with an admin dashboard and public product catalog.</li>
+        <li>Implemented CRUD operations, image upload, search, filtering, and category management.</li>
+        <li>Built a POS sales system with automatic inventory updates and PDF invoice generation.</li>
+        <li>Implemented authentication, role-based access control, and sales analytics in a production-ready app.</li>
+      </ul>
+      <p>Live Demo: <a href="https://tirumula.pages.dev/">https://tirumula.pages.dev</a></p>
+    </div>
+    <div class="item">
+      <div class="item-head"><span>NutriGaze: Fresh vs Rotten Fruit Classification</span></div>
+      <div class="role">Python, Flask, TensorFlow, OpenCV</div>
+      <ul>
+        <li>Developed a deep learning web application to classify fresh and rotten fruits with 97% accuracy.</li>
+        <li>Built a responsive Flask-based web interface for real-time image upload and prediction.</li>
+        <li>Displayed prediction confidence scores with a user-friendly interface.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="item-head"><span>Where Next? — Explore Incredible India</span></div>
+      <div class="role">Python, Flask, SQL, JavaScript</div>
+      <ul>
+        <li>Full-stack travel agency website for exploring India with destinations, packages, states and regions.</li>
+        <li>Destination searching, region filtering, package browsing and a booking-oriented contact flow.</li>
+      </ul>
+      <p>Live Demo: <a href="https://wherenext-k2ft.onrender.com/">https://wherenext-k2ft.onrender.com</a></p>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="item">
+      <p><b>Languages:</b> Python, JavaScript, C</p>
+      <p><b>Frameworks:</b> Flask, Supabase, TensorFlow</p>
+      <p><b>Databases:</b> PostgreSQL, SQL</p>
+      <p><b>Tools:</b> Git, GitHub, MATLAB, Excel, Power BI</p>
+      <p><b>Core Concepts:</b> Data Structures, OOP</p>
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="cert"><b>Oracle</b> — Generative AI Professional</div>
+    <div class="cert"><b>IBM</b> — Artificial Intelligence</div>
+    <div class="cert"><b>SmartBridge</b> — Data Analytics with Tableau</div>
+  </div>
+</body>
+</html>
