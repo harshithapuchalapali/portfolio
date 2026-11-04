@@ -46,8 +46,8 @@
         <br>
         <br>
         <p class="hero__desc reveal">
-          Passionate Software Developer skilled in Python, JavaScript, SQL, Flask and Supabase —
-          building full-stack apps with a strong focus on AI, ML and Computer Vision.
+          ECE graduate with a 9.3 CGPA and three deployed full-stack applications built with Flask,
+          Supabase and JavaScript — focused on shipping working software, not prototypes.
         </p>
         <div class="hero__cta reveal">
           <a href="#projects" class="btn btn--primary magnetic">View My Work</a>
@@ -59,7 +59,6 @@
           </a></li>
           <li><a href="https://linkedin.com/in/harshitha-puchalapalli/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">in</a></li>
           <li><a href="mailto:harshithapuchalapali@gmail.com" aria-label="Email" class="social-icon">@</a></li>
-          <li><a href="tel:+918309982881" aria-label="Phone" class="social-icon">✆</a></li>
         </ul>
       </div>
 
@@ -81,9 +80,9 @@
         <div class="about__card glass reveal">
           <h3>Who I am</h3>
           <p class="about__bio">
-            Passionate Software Developer with hands-on experience building full-stack applications.
-            Skilled in Python, JavaScript, SQL, Flask and Supabase, with strong problem-solving abilities
-            and a focus on scalable software development and modern web technologies.
+            ECE graduate with a 9.3 CGPA and three deployed full-stack applications built with Flask,
+            Supabase and JavaScript. Comfortable across the stack — from database design and CRUD APIs
+            to responsive UI — with a focus on shipping working software rather than prototypes.
           </p>
         </div>
         <div class="about__card glass reveal">
@@ -149,7 +148,30 @@
       <div class="section-head reveal">
         <h2 class="section-title">Featured Projects</h2>
       </div>
+
+      <h3 class="projects__group-title reveal">Full Stack Projects</h3>
       <div class="projects__grid">
+        <article class="project glass reveal">
+          <div class="project__preview" style="background: linear-gradient(135deg, #8e2de2, #4a00e0);">
+            <span>Query Doctor</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">SQL Query Doctor</h3>
+            <p class="project__desc">
+              Flask tool that parses SQL Server execution plans into an interactive operator graph, then
+              flags costly scans, key lookups, bad cardinality estimates and missing indexes with a rule
+              engine. Optionally explains findings in plain English via the Gemini API, with response caching.
+            </p>
+            <div class="project__tags">
+              <span>Python</span><span>Flask</span><span>SQL Server</span><span>Gemini API</span>
+            </div>
+            <div class="project__links">
+              <a href="https://sql-querydoctor.onrender.com/" target="_blank" rel="noopener" class="btn btn--small">Live Demo</a>
+              <a href="https://github.com/harshithapuchalapali/sql-query-doctor.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
         <article class="project glass reveal">
           <div class="project__preview" style="background: linear-gradient(135deg, #6d5dfc, #2563eb);">
             <span>Tirumula</span>
@@ -166,7 +188,7 @@
             </div>
             <div class="project__links">
               <a href="https://tirumula.pages.dev/" target="_blank" rel="noopener" class="btn btn--small">Live Demo</a>
-              <a href="https://github.com/harshithapuchalapali/Tirumula" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Code</a>
+              <a href="https://github.com/harshithapuchalapali/Tirumula" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
             </div>
           </div>
         </article>
@@ -187,7 +209,7 @@
             </div>
             <div class="project__links">
               <a href="https://skycast-u1ce.onrender.com/" target="_blank" rel="noopener" class="btn btn--small">Live Demo</a>
-              <a href="https://github.com/harshithapuchalapali/SkyCast.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Code</a>
+              <a href="https://github.com/harshithapuchalapali/SkyCast.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
             </div>
           </div>
         </article>
@@ -208,7 +230,51 @@
             </div>
             <div class="project__links">
               <a href="https://wherenext-k2ft.onrender.com/" target="_blank" rel="noopener" class="btn btn--small">Live Demo</a>
-              <a href="https://github.com/harshithapuchalapali/WhereNext-.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Code</a>
+              <a href="https://github.com/harshithapuchalapali/WhereNext-.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <h3 class="projects__group-title reveal">AI / ML Projects</h3>
+      <div class="projects__grid">
+        <article class="project glass reveal">
+          <div class="project__preview" style="background: linear-gradient(135deg, #f7971e, #ff4e50);">
+            <span>NutriGaze</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">NutriGaze: Fresh vs Rotten Fruit Classifier</h3>
+            <p class="project__desc">
+              Deep learning web app that classifies an uploaded fruit image as fresh or rotten using a CNN
+              trained in TensorFlow/Keras at 97% accuracy. Flask backend with session-based authentication,
+              upload validation and a responsive templated UI.
+            </p>
+            <div class="project__tags">
+              <span>Python</span><span>Flask</span><span>TensorFlow</span><span>OpenCV</span>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/harshithapuchalapali/NutriGaze.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project glass reveal">
+          <div class="project__preview" style="background: linear-gradient(135deg, #232526, #414345);">
+            <span>Inspection</span>
+          </div>
+          <div class="project__body">
+            <h3 class="project__title">Industrial Inspection — Anomaly Detection Dashboard</h3>
+            <p class="project__desc">
+              Visual anomaly detection system for industrial quality inspection, pairing a PatchCore-based
+              ML pipeline with a React + TypeScript dashboard. Triages units as pass, fail or review, with
+              evidence views, KPI trends and an operator review workflow over a FastAPI backend.
+            </p>
+            <div class="project__tags">
+              <span>React</span><span>TypeScript</span><span>FastAPI</span><span>Python</span><span>PatchCore</span>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/harshithapuchalapali/Industrial_Inspection.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
             </div>
           </div>
         </article>
@@ -237,9 +303,8 @@
         </div>
       </div>
       <div class="certifications reveal">
-        <div class="cert glass"><span class="cert__badge">Oracle</span> Generative AI Professional</div>
-        <div class="cert glass"><span class="cert__badge">IBM</span> Artificial Intelligence</div>
-        <div class="cert glass"><span class="cert__badge">SmartBridge</span> Data Analytics with Tableau</div>
+        <div class="cert glass"><span class="cert__badge">Oracle</span> Cloud Infrastructure 2025 Certified Generative AI Professional &middot; Jul 2025</div>
+        <div class="cert glass"><span class="cert__badge">NxtWave</span> AI for Students: Build Your Own Generative AI Model &middot; Jul 2025</div>
       </div>
     </div>
   </section>
@@ -257,10 +322,6 @@
             Have a project in mind, an internship opportunity, or just want to say hi? My inbox is always open.
           </p>
           <ul class="contact__list">
-            <li>
-              <span class="contact__label">Phone</span>
-              <a href="tel:+918309982881">+91 83099 82881</a>
-            </li>
             <li>
               <span class="contact__label">Email</span>
               <a href="mailto:harshithapuchalapali@gmail.com">harshithapuchalapali@gmail.com</a>

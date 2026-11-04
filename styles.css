@@ -580,6 +580,22 @@ section {
   gap: 20px;
 }
 
+.projects__group-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: var(--text-dim);
+  margin: 64px 0 20px;
+}
+
+.projects__group-title:first-of-type {
+  margin-top: 0;
+}
+
+.projects__group-title + .projects__grid {
+  margin-bottom: 0;
+}
+
 .project {
   overflow: hidden;
   display: flex;
