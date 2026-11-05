@@ -46,8 +46,8 @@
         <br>
         <br>
         <p class="hero__desc reveal">
-          ECE graduate with a 9.3 CGPA and three deployed full-stack applications built with Flask,
-          Supabase and JavaScript — focused on shipping working software, not prototypes.
+          Electronics and Communication Engineering graduate building end-to-end web applications with
+          Flask, Supabase and JavaScript — from database schema to interface.
         </p>
         <div class="hero__cta reveal">
           <a href="#projects" class="btn btn--primary magnetic">View My Work</a>
@@ -80,30 +80,28 @@
         <div class="about__card glass reveal">
           <h3>Who I am</h3>
           <p class="about__bio">
-            ECE graduate with a 9.3 CGPA and three deployed full-stack applications built with Flask,
-            Supabase and JavaScript. Comfortable across the stack — from database design and CRUD APIs
-            to responsive UI — with a focus on shipping working software rather than prototypes.
+            Electronics and Communication Engineering graduate turned software developer — first training
+            models, then building the applications around them. AI is part of how I work every day, not just
+            something I studied: I use it daily to debug, draft and test ideas faster, which turns a rough
+            thought into something I can run in minutes. That habit shapes how I build — start small, ship
+            it, then make it better.
           </p>
         </div>
         <div class="about__card glass reveal">
           <h3>What I do</h3>
-          <div class="skills">
-            <span class="skill">Python</span>
-            <span class="skill">JavaScript</span>
-            <span class="skill">SQL</span>
-            <span class="skill">Flask</span>
-            <span class="skill">Supabase</span>
-            <span class="skill">TensorFlow</span>
-            <span class="skill">OpenCV</span>
-            <span class="skill">AI / ML</span>
-          </div>
+          <p class="about__bio">I take an idea from model to deployed app.</p>
+          <ul class="facts">
+            <li>Train and evaluate ML models — transfer-learned image classifier at 97% accuracy</li>
+            <li>Build the backend and schema — Flask, REST endpoints, PostgreSQL/Supabase</li>
+            <li>Ship a usable UI and keep it running in production</li>
+          </ul>
         </div>
         <div class="about__card glass reveal">
           <h3>Highlights</h3>
           <ul class="facts">
             <li><strong>9.3</strong> / 10 CGPA — B.Tech ECE</li>
             <li><strong>97%</strong> accuracy on ML project</li>
-            <li><strong>3+</strong> full-stack projects built</li>
+            <li><strong>Full stack</strong> — ML models, APIs and interfaces, end to end</li>
             <li><strong>Certified</strong> GenAI · AI · Data Analytics certified</li>
           </ul>
         </div>
@@ -119,24 +117,20 @@
       </div>
       <div class="skills-list">
         <div class="skill-card glass reveal">
-          <h3>Languages</h3>
-          <div class="skills"><span class="skill">Python</span><span class="skill">JavaScript</span><span class="skill">C</span></div>
+          <h3>AI / ML</h3>
+          <div class="skills"><span class="skill">TensorFlow</span><span class="skill">Keras</span><span class="skill">OpenCV</span><span class="skill">Deep Learning</span><span class="skill">Model Evaluation</span></div>
         </div>
         <div class="skill-card glass reveal">
-          <h3>Frameworks</h3>
-          <div class="skills"><span class="skill">Flask</span><span class="skill">Supabase</span><span class="skill">TensorFlow</span></div>
+          <h3>Backend &amp; APIs</h3>
+          <div class="skills"><span class="skill">Python</span><span class="skill">Flask</span><span class="skill">REST APIs</span><span class="skill">Session Auth</span></div>
         </div>
         <div class="skill-card glass reveal">
-          <h3>Databases</h3>
-          <div class="skills"><span class="skill">PostgreSQL</span><span class="skill">SQL</span></div>
+          <h3>Data</h3>
+          <div class="skills"><span class="skill">SQL (PostgreSQL, SQL Server)</span><span class="skill">Supabase</span><span class="skill">DBMS</span><span class="skill">Power BI</span></div>
         </div>
         <div class="skill-card glass reveal">
-          <h3>Tools</h3>
-          <div class="skills"><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">MATLAB</span><span class="skill">Excel</span><span class="skill">Power BI</span></div>
-        </div>
-        <div class="skill-card glass reveal">
-          <h3>Core Concepts</h3>
-          <div class="skills"><span class="skill">Data Structures</span><span class="skill">OOP</span></div>
+          <h3>Frontend &amp; Tools</h3>
+          <div class="skills"><span class="skill">JavaScript</span><span class="skill">TypeScript</span><span class="skill">HTML/CSS</span><span class="skill">React</span><span class="skill">Git/GitHub</span><span class="skill">MATLAB</span></div>
         </div>
       </div>
     </div>
@@ -246,8 +240,8 @@
           <div class="project__body">
             <h3 class="project__title">NutriGaze: Fresh vs Rotten Fruit Classifier</h3>
             <p class="project__desc">
-              Deep learning web app that classifies an uploaded fruit image as fresh or rotten using a CNN
-              trained in TensorFlow/Keras at 97% accuracy. Flask backend with session-based authentication,
+              Deep learning web app that classifies an uploaded fruit image as fresh or rotten using transfer
+              learning on a pre-trained CNN in TensorFlow/Keras, reaching 97% accuracy. Flask backend with session-based authentication,
               upload validation and a responsive templated UI.
             </p>
             <div class="project__tags">
@@ -255,26 +249,6 @@
             </div>
             <div class="project__links">
               <a href="https://github.com/harshithapuchalapali/NutriGaze.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="project glass reveal">
-          <div class="project__preview" style="background: linear-gradient(135deg, #232526, #414345);">
-            <span>Inspection</span>
-          </div>
-          <div class="project__body">
-            <h3 class="project__title">Industrial Inspection — Anomaly Detection Dashboard</h3>
-            <p class="project__desc">
-              Visual anomaly detection system for industrial quality inspection, pairing a PatchCore-based
-              ML pipeline with a React + TypeScript dashboard. Triages units as pass, fail or review, with
-              evidence views, KPI trends and an operator review workflow over a FastAPI backend.
-            </p>
-            <div class="project__tags">
-              <span>React</span><span>TypeScript</span><span>FastAPI</span><span>Python</span><span>PatchCore</span>
-            </div>
-            <div class="project__links">
-              <a href="https://github.com/harshithapuchalapali/Industrial_Inspection.git" target="_blank" rel="noopener" class="btn btn--small btn--ghost">GitHub</a>
             </div>
           </div>
         </article>
